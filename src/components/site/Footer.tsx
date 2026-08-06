@@ -94,15 +94,18 @@ export function Footer() {
           </div>
         </div>
 
-        <div>
-          <h3 className="text-sm font-semibold tracking-[0.18em] uppercase text-gold">Location</h3>
-          <div className="mt-5 flex aspect-4/3 flex-col items-center justify-center border border-gold/40 bg-primary-foreground/5 px-4 text-center">
-            <MapPin className="size-6 text-gold" aria-hidden="true" />
-            <p className="mt-3 text-sm text-primary-foreground/80">
-              Map embed placeholder — {college.location}
-            </p>
-          </div>
-        </div>
+        <div className="mt-8 aspect-16/9 w-full overflow-hidden border border-border bg-card">
+  <iframe
+    title={`${college.name || 'College'} Location Map`}
+    src={`https://maps.google.com/maps?q=${encodeURIComponent(
+      college.location || 'Qila Didar Singh, Gujranwala'
+    )}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+    className="h-full w-full border-0"
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
       </div>
 
       <div className="border-t border-gold/25">

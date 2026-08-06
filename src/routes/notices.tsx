@@ -177,12 +177,18 @@ function NoticesPage() {
               ))}
             </div>
 
-            <div className="mt-8 flex aspect-16/9 flex-col items-center justify-center border border-border bg-card px-6 text-center">
-              <MapPin className="size-7 text-gold" aria-hidden="true" />
-              <p className="mt-3 text-sm text-muted-foreground">
-                Map embed placeholder — {college.location}
-              </p>
-            </div>
+            <div className="mt-8 aspect-16/9 w-full overflow-hidden border border-border bg-card">
+  <iframe
+    title={`${college.name || 'College'} Location Map`}
+    src={`https://maps.google.com/maps?q=${encodeURIComponent(
+      college.location || 'Qila Didar Singh, Gujranwala'
+    )}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+    className="h-full w-full border-0"
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
           </div>
 
           <div>

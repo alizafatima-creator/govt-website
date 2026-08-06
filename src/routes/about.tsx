@@ -87,7 +87,7 @@ function AboutPage() {
         <SectionHeading eyebrow="Our Story" title="History & Mission" />
         <div className="mt-8 space-y-4 text-base leading-relaxed text-muted-foreground">
           <p>
-            [Placeholder] Government Graduate College for Women, Qila Didar Singh was established to
+            Government Graduate College for Women, Qila Didar Singh was established to
             bring higher education within reach of young women in the rural belt of District
             Gujranwala, where distance and cost had long limited access beyond matriculation. Beginning
             as an intermediate college, the institution was progressively upgraded to degree status and
@@ -95,13 +95,13 @@ function AboutPage() {
             Punjab.
           </p>
           <p>
-            [Placeholder] Our mission is to provide affordable, disciplined and academically rigorous
+            Our mission is to provide affordable, disciplined and academically rigorous
             education that prepares students for professional life, further study and responsible
             citizenship. We seek to develop intellectual curiosity, moral integrity and a lasting
             respect for learning, in keeping with the values of our national heritage.
           </p>
           <p>
-            [Placeholder] The College operates under the Higher Education Department, Government of the
+            The College operates under the Higher Education Department, Government of the
             Punjab, and its examinations are conducted by the Board of Intermediate and Secondary
             Education, Gujranwala, and University of the Punjab, Lahore.
           </p>
@@ -127,23 +127,23 @@ function AboutPage() {
       <section className="mx-auto max-w-7xl space-y-20 px-4 py-20 sm:px-6">
         <LeaderMessage
           photo={principalPhoto}
-          name="Prof. [Principal's Name]"
+          name="Prof. Farhana Faheem"
           role="Principal"
           paragraphs={[
-            "[Placeholder] Dear students and parents, it gives me great pleasure to welcome you to Government Graduate College for Women, Qila Didar Singh. This College was founded on a simple conviction: that a daughter educated in her own town lifts an entire household with her.",
-            "[Placeholder] We offer a structured academic environment supported by qualified faculty, well-equipped laboratories, a central library and a culture of discipline and mutual respect. Our students consistently distinguish themselves in Board and University examinations, and many proceed to professional institutions across the Punjab.",
-            "[Placeholder] I encourage every student to make full use of the opportunities available here — the classroom, the laboratory, the library and the co-curricular societies. My office remains open to students and parents alike for guidance and support.",
+            "Dear students and parents, it gives me great pleasure to welcome you to Government Graduate College for Women, Qila Didar Singh. This College was founded on a simple conviction: that a daughter educated in her own town lifts an entire household with her.",
+            "We offer a structured academic environment supported by qualified faculty, well-equipped laboratories, a central library and a culture of discipline and mutual respect. Our students consistently distinguish themselves in Board and University examinations, and many proceed to professional institutions across the Punjab.",
+            "I encourage every student to make full use of the opportunities available here — the classroom, the laboratory, the library and the co-curricular societies. My office remains open to students and parents alike for guidance and support.",
           ]}
         />
         <span className="rule-gold mx-auto block w-full max-w-xl" aria-hidden="true" />
         <LeaderMessage
           reverse
           photo={vicePrincipalPhoto}
-          name="Prof. [Vice Principal's Name]"
+          name="Prof. Farhana Saeed"
           role="Vice Principal"
           paragraphs={[
-            "[Placeholder] As Vice Principal, my responsibility is to ensure that the academic calendar, examination schedule and student discipline function smoothly so that teaching remains uninterrupted throughout the session.",
-            "[Placeholder] I urge students to maintain regular attendance, to seek help from their teachers without hesitation, and to treat the College as a shared trust that each generation of students hands on to the next.",
+            "As Vice Principal, my responsibility is to ensure that the academic calendar, examination schedule and student discipline function smoothly so that teaching remains uninterrupted throughout the session.",
+            "I urge students to maintain regular attendance, to seek help from their teachers without hesitation, and to treat the College as a shared trust that each generation of students hands on to the next.",
           ]}
         />
       </section>

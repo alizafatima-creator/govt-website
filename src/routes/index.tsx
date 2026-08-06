@@ -99,7 +99,7 @@ function Index() {
               className="aspect-3/4 w-full object-cover"
             />
             <figcaption className="border-t border-gold/40 pt-3 text-center text-sm">
-              <span className="block font-semibold text-primary">Prof. [Principal's Name]</span>
+              <span className="block font-semibold text-primary">Prof. Farhana</span>
               <span className="text-muted-foreground">Principal</span>
             </figcaption>
           </figure>
